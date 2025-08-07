@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { Loader } from '@/components/Loader';
 import { ProgramCard } from '@/components/ProgramCard';
 import { StadiumSelector } from '@/components/StadiumSelector';
 import { fetchPrograms } from '@/lib/fetchPrograms';
@@ -37,7 +38,7 @@ export default function Page() {
   }
 
   if (!programs[0]) {
-    return <div>読み込み中...</div>;
+    return <Loader />;
   }
 
   const uniqueStadiumNumbers = Array.from(
