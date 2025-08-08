@@ -1,5 +1,10 @@
 # BOA Motivation Viz
 
+[![ci](https://github.com/shimomo/boa-motivation-viz/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/shimomo/boa-motivation-viz/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/shimomo/boa-motivation-viz/branch/main/graph/badge.svg?token=DrJuOErMa9)](https://codecov.io/gh/shimomo/boa-motivation-viz)
+[![license](https://img.shields.io/github/license/shimomo/boa-motivation-viz)](LICENSE)
+[![last commit](https://img.shields.io/github/last-commit/shimomo/boa-motivation-viz)](https://github.com/shimomo/boa-motivation-viz/commits/main)
+
 [BOA Motivation Viz](https://shimomo.github.io/boa-motivation-viz/) は、ボートレースの出走表データを元に選手の体重増減からモチベーションを可視化するWebアプリケーションです。体重の変動から、選手のやる気やコンディションを視覚的に捉えることができます。Next.jsで開発し、GitHub Pagesにデプロイしています。
 
 ## 主な機能
