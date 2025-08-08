@@ -1,5 +1,3 @@
-'use client';
-
 import { convertStadiumName } from '@/lib/convertStadium';
 
 type Props = {

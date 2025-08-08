@@ -1,5 +1,3 @@
-'use client';
-
 import { convertStadiumName } from '@/lib/convertStadium';
 import { formatJapaneseDateTime } from '@/lib/formatJapaneseDateTime';
 import { ProgramTable } from '@/components/ProgramTable';

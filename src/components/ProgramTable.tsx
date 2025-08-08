@@ -1,5 +1,3 @@
-'use client';
-
 import { applyBoatNumberColor } from '@/lib/applyBoatNumberColor';
 import { applyWeightColor } from '@/lib/applyWeightColor';
 import { findWeight } from '@/lib/findWeight';
