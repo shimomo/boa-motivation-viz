@@ -1,4 +1,4 @@
-name: Run tests and Deploy Next.js site to GitHub Pages
+name: ci
 
 on:
   push:
