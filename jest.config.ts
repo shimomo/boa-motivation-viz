@@ -8,7 +8,10 @@ const config: Config = {
   },
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
   collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/src/**'],
+  collectCoverageFrom: [
+    '<rootDir>/src/**',
+    '!<rootDir>/src/types/**',
+  ],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
 };
