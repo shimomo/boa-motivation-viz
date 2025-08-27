@@ -14,7 +14,7 @@ const getPastDates = (baseDate: Date, days: number = 7) => {
 };
 
 const getJson = async (date: string) =>
-  (await fetch(`https://boatraceopenapi.github.io/programs/v2/${date}.json`)).json();
+  (await fetch(`https://boatraceopenapi.github.io/programs/v2/${date.substring(0, 4)}/${date}.json`)).json();
 
 export const fetchPrograms = async (baseDate = new Date()) => {
   const dates = getPastDates(baseDate);
