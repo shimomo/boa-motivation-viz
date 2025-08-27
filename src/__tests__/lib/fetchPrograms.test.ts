@@ -27,7 +27,7 @@ describe('fetchPrograms', () => {
     expectedDates.forEach((date, index) => {
       expect(global.fetch).toHaveBeenNthCalledWith(
         index + 1,
-        `https://boatraceopenapi.github.io/programs/v2/${date}.json`
+        `https://boatraceopenapi.github.io/programs/v2/${date.substring(0, 4)}/${date}.json`
       );
     });
 
